@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+section{
+    min-height: 100vh;
+}
+.header{
+   
+    background: url(/img/Travel.png) center center no-repeat;
+    padding-top: 44px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    margin-right: 100px;
+    font-size: 20px;
+    
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    color: #ffffff;
+    text-decoration: none ;
+    }
+
+.menu a:last-child{
+    margin-right: 0px;
+}
+.header-text{
+    text-align: center;
+    margin-top: 250px;
+}
+.header-text h1{
+    font-family: Montserrat;
+    font-size: 100px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+.header p{
+    font-size: 30px;
+    
+    letter-spacing: 0.14em;
+    color: #ffffff;
+}
+.header button{
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 20px 80px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.14em;
+    color: #ffffff;
+    transition: ease-in .30s all;
+}
+.header button:hover{
+    background-color: #fff;
+    color: black;
+    border-color: black;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-text span{
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #c4c4c4
+}
+.about-text h2{
+    margin-top: 32px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #000000;
+}
+.about-text p{ 
+    margin-bottom: 54px;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    color: #5b5b5c;
+}
+.about-text button{
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 20px 80px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.14em;
+    color: #000000;
+    transition: ease-in .30s all;
+}
+.about-text button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);}
+
+.photos {
+    margin-top: 100px;
+    text-align: center;
+}
+.photos h2{
+    font-size: 31.9px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    color: #000000;
+}
+.photos p{
+    margin-top: 35px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #5b5b5c;
+}
+.photos-wrap{
+    margin-top: 90px;
+}
+.photos-wrap{
+    margin: 10px;
+}
+.company-text{
+    text-align: center;
+}
+.company{
+    margin-top: 300px;
+    margin-bottom: 160px;
+}
+.company-text h2{
+    font-size: 31.9px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    color: #000000;
+}
+.company-text p{
+    margin-top: 35px;
+    margin-bottom: 65px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #5b5b5c;
+}
+
+.company-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.company-block-1{
+    margin-right: 35px;
+}
+.company-block h3 {
+    margin-top: 50px;
+    font-size: 19.2px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+.company-block p{
+    margin-top: 55px;
+    margin-bottom: 80px;    
+    font-size: 19px;
+    line-height: 41px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    color: #848484;
+}
+.company-block button{
+    cursor: pointer;
+    padding: 12px 18px;
+    border: none;
+    font-size: 16px;
+    line-height: 41px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    color: #000000;
+    transition: .25s;
+}
+.company-block button:hover {
+    background-color: #ccc;
+}
+
+.send {
+    background-color: #f4f4f4;
+    padding: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.send-text{
+    margin-right: 111px;
+}
+.send-text h2 {
+    font-size: 30px;
+    line-height: 41px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #000000;
+    }
+
+.send-text p{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    color: #5b5b5c;
+    
+}
+form button{
+    padding: 27px 87px;
+    font-size: 22px;
+    background-color: #8d8d8d; 
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: #ffffff;
+    transition: .25s;
+}
+form button:hover{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+input {
+   
+    margin-right: 60px;
+    background: transparent;
+    border: 2px solid #1b1b1b;
+    padding: 27px 32px;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    color: #3a4047;
+}
+.footer {
+    padding: 95px 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.34em;
+    color: #000000;
+}
+.footer-menu{
+    margin-bottom: 66px;
+    
+}
+.footer-menu a{
+    margin-right: 55px;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: #000000;
+    text-decoration:none;
+}
+.footer-menu a:last-child{
+    margin-right: 0;
+}
